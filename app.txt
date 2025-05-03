@@ -1,0 +1,31 @@
+✅ Step-by-Step: Convert Python Script to EXE with a Shortcut
+
+📦 Step 1: Install pyinstaller (only once)
+Open Command Prompt and run:
+pip install pyinstaller
+
+🛠️ Step 2: Convert Your Script to .exe
+Navigate to the folder containing your Python script, then run:
+
+pyinstaller --onefile --noconsole your_script_name.py
+
+🔹Use --noconsole so the terminal doesn't open with the app.
+Replace your_script_name.py with your actual file name.
+
+📂 After it's done, you'll find the .exe file in the dist/ folder.
+
+🖥️ Step 3: Create a Desktop Shortcut
+Go to the dist/ folder where the .exe is.
+
+Right-click the .exe → Send to → Desktop (create shortcut)
+
+(Optional) Rename the shortcut, e.g., App Manager
+
+🎨 : Add a Custom Icon
+Create or download an .ico file.
+
+Right-click your desktop shortcut → Properties
+
+Click Change Icon... → Browse to your .ico file → Apply
+
+You’re all set — double-click the shortcut anytime to launch your tool!
